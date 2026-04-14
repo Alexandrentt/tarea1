@@ -1,0 +1,22 @@
+Bloque 1: Control de Procesos y Métricas 
+1. Monitor de Servidor de Cómputo: Se recibe una ráfaga de 10 niveles de carga de CPU (0-100). El algoritmo debe contar cuántas veces la carga superó el 80% (alertas críticas) y cuántas estuvo bajo el 20% (ocio). Al final, debe mostrar el promedio de carga total acumulado y un mensaje de "Mantenimiento Requerido" si hubo más de 3 alertas críticas.
+
+2. Sistema de Peaje Automatizado: Un sensor registra el tipo de vehículo (1: Moto, 2: Auto, 3: Camión). Las motos pagan $5, autos $10 y camiones $20. Si un camión transporta material peligroso (booleano), paga un 50% extra. El algoritmo debe acumular el dinero total recaudado y contar cuántos vehículos de cada tipo pasaron por la cabina.
+
+3. Clasificador de Partículas Físicas: En un experimento se miden 15 partículas por su carga eléctrica. Si la carga es positiva, se suma a un acumulador de energía positiva; si es negativa, a un acumulador de energía negativa; si es cero, se cuenta como neutrón. El programa debe informar cuál energía total es mayor en valor absoluto y el porcentaje de neutrones respecto al total.
+
+Bloque 2: Lógica Financiera y de Usuario
+4. Simulación de Cajero con Límite: Un usuario intenta realizar 5 retiros. El algoritmo debe validar en cada intento si el monto es mayor al saldo disponible (acumulador) y si el retiro supera el límite de $200 por transacción. Se debe contar cuántas transacciones fueron rechazadas por fondos insuficientes y cuántas por superar el límite.
+
+5. Análisis de Portafolio de Inversión: Se ingresan los rendimientos diarios (positivos o negativos) de una acción durante una semana. El algoritmo debe acumular las ganancias totales y las pérdidas totales por separado. Si al final la pérdida acumulada supera a la ganancia, debe mostrar "Riesgo Alto", de lo contrario "Estable". Además, contar cuántos días hubo "Racha Ganadora" (rendimiento > 5%).
+
+6. Sistema de Becas por Puntos: Para otorgar una beca, se evalúan 3 criterios: promedio académico, ingresos familiares y distancia al campus. Cada criterio suma puntos si cumple ciertas condiciones (if). El acumulador de puntos decide: >80 puntos (Beca Completa), 50-80 (Media Beca), <50 (Rechazado). Se debe contar cuántos aspirantes quedan en cada categoría tras procesar una lista.
+
+Bloque 3: Análisis de Datos y Errores
+7. Control de Calidad en Manufactura: Se procesan 20 piezas. Si una pieza mide entre 4.9cm y 5.1cm, es "Apta". Si mide menos, es "Desecho por defecto"; si mide más, es "Re-proceso". Acumula la medida total de las piezas aptas para sacar un promedio de precisión y cuenta cuántas piezas deben ser descartadas.
+
+8. Validador de Acceso con Intentos: Un sistema permite ingresar una clave. Tienes un contador de intentos fallidos. Si llega a 3, el sistema se bloquea. Si la clave es correcta en menos de 3 intentos, el acumulador de "Tiempo de Sesión" inicia en 60 minutos. Si la clave fue correcta pero al tercer intento, inicia solo con 10 minutos por seguridad.
+
+9. Registro de Clima Extremo: Se ingresan las temperaturas de 10 días. El algoritmo debe contar cuántos días fueron "Gélidos" (<0°C), cuántos "Templados" (0-25°C) y cuántos "Cálidos" (>25°C). Además, debe acumular solo las temperaturas positivas para calcular su promedio, ignorando los valores bajo cero en ese cálculo específico.
+
+10. Gestión de Inventario de Tienda: Se procesan ventas de productos. Si el producto tiene descuento, se aplica y se resta del acumulador de "Stock". El contador de "Ventas con Descuento" aumenta. Si el stock llega a menos de 5 unidades, el sistema debe lanzar un aviso de "Stock Crítico" por cada venta realizada en ese estado.
