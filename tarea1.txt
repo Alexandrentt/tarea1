@@ -1,4 +1,4 @@
-Bloque 1: Control de Procesos y Métricas
+Bloque 1: Control de Procesos y Métricas 
 1. Monitor de Servidor de Cómputo: Se recibe una ráfaga de 10 niveles de carga de CPU (0-100). El algoritmo debe contar cuántas veces la carga superó el 80% (alertas críticas) y cuántas estuvo bajo el 20% (ocio). Al final, debe mostrar el promedio de carga total acumulado y un mensaje de "Mantenimiento Requerido" si hubo más de 3 alertas críticas.
 
 2. Sistema de Peaje Automatizado: Un sensor registra el tipo de vehículo (1: Moto, 2: Auto, 3: Camión). Las motos pagan $5, autos $10 y camiones $20. Si un camión transporta material peligroso (booleano), paga un 50% extra. El algoritmo debe acumular el dinero total recaudado y contar cuántos vehículos de cada tipo pasaron por la cabina.
